@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms in html</title>
+    <style>
+        table{
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <table border="1" width="100%" >
+        <tr>
+            <th>a</th>
+            <th>b</th>
+            <th>c</th>
+        </tr>
+        <tr>
+            <td>
+                <form action="lang.php" method="post">
+                    <b>User name</b>
+                    <input type="text" placeholder="Enter your name">
+                    <b>password</b>
+                    <input type="password">
+                </form>
+            </td>
+            <td>
+                <form action="lang.php" method="post">
+                    <b>your fav</b>
+                    <input type="radio" name="Anime">Anime
+                    <input type="radio" name="Kdrama">Kdrama
+
+                </form>
+            </td>
+            <td>
+                <b>discription</b>
+                <textarea name="discription" cols="50" rows="5">
+                    
+                </textarea>
+            </td>
+        </tr>
+
+    </table>
+</body>
+
+</html>
